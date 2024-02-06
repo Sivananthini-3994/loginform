@@ -1,0 +1,31 @@
+body{
+    font-family: arial,sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+}
+video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+}
+
+.container{
+    width: 300px;
+    padding: 20px;
+    margin-left: 500px;
+    border: 1px solid black;
+    
+}
+
+button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(14, 177, 41);
+}
